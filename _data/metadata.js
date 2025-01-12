@@ -1,11 +1,11 @@
 export default {
 	title: "Heterl0",
-	url: "https://example.com/",
+	url: "https://heterl0.live/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "My name is Hieu Le Van, and I am a front-end developer.",
 	author: {
 		name: "Hieu Le Van",
 		email: "lehieu99666@gmail.com",
-		url: "https://example.com/about-me/",
+		url: "https://heterl0.live/about-me/",
 	},
 };
