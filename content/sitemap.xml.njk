@@ -10,6 +10,13 @@ eleventyExcludeFromCollections: true
 	<url>
 		<loc>{{ absoluteUrl }}</loc>
 		<lastmod>{{ page.date | htmlDateString }}</lastmod>
+		{% if page.url == '/' %}
+			<priority>1.0</priority>
+		{% elif page.url.startsWith('/blog/') %}
+			<priority>0.85</priority>
+		{% else %}
+			<priority>0.7</priority>
+		{% endif %}
 	</url>
 {%- endfor %}
 </urlset>

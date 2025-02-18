@@ -10,6 +10,28 @@
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
 
+		 <!-- Open Graph Meta Tags -->
+		<meta property="og:title" content="{{ title or metadata.title }}">
+		<meta property="og:description" content="{{ description or metadata.description }}">
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="{{metadata.url}}{{ page.url | url }}">
+		{% if og_image %}
+  		<meta property="og:image" content="{{ metadata.url }}{{page.url | url }}{{ og_image }}">
+		{% else %}
+			<meta property="og:image" content="{{ metadata.url }}{{ metadata.default_image }}">
+		{% endif %}
+		<meta property="og:site_name" content="{{ metadata.title }}">
+		<meta property="og:locale" content="en_US">
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="{{ title or metadata.title }}">
+		<meta name="twitter:description" content="{{ description or metadata.description }}">
+		{% if og_image %}
+  		<meta property="twitter:image" content="{{ metadata.url }}{{page.url | url}}{{ og_image }}">
+		{% else %}
+			<meta property="twitter:image" content="{{ metadata.url }}{{ metadata.default_image }}">
+		{% endif %}
 		{#-
 		Plain-text bundles are provided via the `eleventy-plugin-bundle` plugin:
 		1. CSS:

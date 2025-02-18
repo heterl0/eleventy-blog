@@ -7,7 +7,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
-
+import path from "path";
 import pluginFilters from "./_config/filters.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
@@ -84,6 +84,14 @@ export default async function (eleventyConfig) {
 		// Output formats for each image.
 		formats: ["avif", "webp", "auto"],
 
+		filenameFormat: function (id, src, width, format, options) {
+			// Extract the original filename without extension
+			const name = path.basename(src, path.extname(src));
+
+			// Return the filename in the same structure but with the new format extension
+			return `${name}.${format}`;
+		},
+
 		// widths: ["auto"],
 
 		defaultAttributes: {
@@ -113,6 +121,8 @@ export default async function (eleventyConfig) {
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+	eleventyConfig.addPassthroughCopy("content/robots.txt"); // Adjust path if needed
 }
 
 export const config = {

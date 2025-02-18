@@ -4,6 +4,7 @@ description: The simple description about touch typing and my approach it.
 date: 2024-11-22
 tags:
   - touch-typing
+og_image: image-1.png
 ---
 
 ![My Monkey Type profile](./image-1.png "My Monkey Type profile")

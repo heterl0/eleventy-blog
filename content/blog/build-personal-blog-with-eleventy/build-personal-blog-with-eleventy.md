@@ -4,6 +4,7 @@ description: Build personal blog site super easy with Eleventy JS, a simpler sta
 date: 2025-01-14
 tags:
   - experience
+og_image: 11ty-logo.png
 ---
 
 ## Introduce
