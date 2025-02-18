@@ -7,25 +7,25 @@ Welcome to the 11ty (Eleventy) version 3 project! This README provides an overvi
 ## Table of Contents
 
 - [11ty Personal Blog](#11ty-personal-blog)
-	- [Table of Contents](#table-of-contents)
-	- [About 11ty](#about-11ty)
-	- [Features](#features)
-	- [Requirements](#requirements)
-	- [Installation](#installation)
-	- [Project Structure](#project-structure)
-	- [Usage](#usage)
-		- [Development](#development)
-		- [Build](#build)
-		- [Serve](#serve)
-	- [Customization](#customization)
-		- [Layouts](#layouts)
-		- [Content](#content)
-		- [Global Data](#global-data)
-		- [Styles](#styles)
-	- [Deployment](#deployment)
-		- [Popular Deployment Options](#popular-deployment-options)
-	- [Contributing](#contributing)
-	- [License](#license)
+  - [Table of Contents](#table-of-contents)
+  - [About 11ty](#about-11ty)
+  - [Features](#features)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Project Structure](#project-structure)
+  - [Usage](#usage)
+    - [Development](#development)
+    - [Build](#build)
+    - [Serve](#serve)
+  - [Customization](#customization)
+    - [Layouts](#layouts)
+    - [Content](#content)
+    - [Global Data](#global-data)
+    - [Styles](#styles)
+  - [Deployment](#deployment)
+    - [Popular Deployment Options](#popular-deployment-options)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ---
 
@@ -76,6 +76,7 @@ Learn more about 11ty on the [official website](https://www.11ty.dev/).
    ```
 
 4. Build the site for production:
+
    ```bash
    npm run build
    ```
