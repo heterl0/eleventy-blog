@@ -5,8 +5,8 @@ date: 2025-02-12
 tags:
   - experience
   - devOps
+pageType: blog
 ---
-
 ## Introduction
 
 As a front-end developer, I’ve always focused on building great user interfaces, but recently, I’ve been diving deeper into server management and deployment. In this blog, I’ll share my personal experience setting up WordPress on an Nginx server with SSL, a journey that has helped me understand web hosting, security, and performance optimization. Check me project [here](https://github.com/heterl0/vovinam-fusion-wp)!.

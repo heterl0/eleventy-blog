@@ -5,6 +5,7 @@ date: 2025-01-14
 tags:
   - experience
 og_image: 11ty-logo.png
+pageType: blog
 ---
 
 ## Introduce
@@ -19,6 +20,7 @@ Initially, I wanted to create a blog using Next.js with Firebase and deploy it o
 **Advantages:**
 - **Powerful Static Site Generation:** Next.js could generate static sites efficiently by fetching content from Firebase. This setup would also allow me to write and store blog posts directly.
 - **Rich Library Support:** Combining my portfolio and blog into one platform would enable advanced customizations using the Next.js ecosystem.  
+
 **Disadvantages:**
 - **Free Tier Limitations:** Vercel's free tier limits deployments to 12 serverless functions, and each Firebase data fetch counts as one. This could be a problem as the site grows.
 - **Complexity:** The integration of Next.js with Firebase requires significant time and effort to set up and maintain, which could slow my progress.
@@ -27,9 +29,10 @@ I chose 11ty because it’s a simpler static site generator that aligns well wit
 **Advantages:**
 - **Speed:** Eleventy is incredibly fast, allowing me to deploy a blog quickly.
 - **Flexible Templating:** It supports multiple templating languages, which makes customization easy.  
+
 **Disadvantages:**
 - **Limited Scope:** Eleventy is primarily suited for blogs and simple static sites. It lacks advanced interactivity and business logic capabilities.
-## Start with a [Start Project](# Starter Projects)
+## Start with a [Starter Projects — Eleventy](https://www.11ty.dev/docs/starter/)
 When starting an 11ty project, there are many templates available to help you get started quickly. These templates provide pre-configured setups for various use cases, such as blogs, portfolios, and more.
 ![Templates 11ty projects with high score lighthouse](templates-11ty.png)
 I chose the `Official Starter` template to begin. [Link to the template](https://github.com/11ty/eleventy-base-blog).  
@@ -49,7 +52,7 @@ You can add metadata for post with two ways:
 ![](setting-metadata-for-post.png)
 
 2. **Source Mode:** Switch the file to source mode and add metadata like this:
-```
+```md
 ---
 title: New Process Update
 description: This blog about update my learn typing touch process

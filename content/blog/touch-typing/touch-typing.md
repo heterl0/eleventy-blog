@@ -5,6 +5,7 @@ date: 2024-11-22
 tags:
   - touch-typing
 og_image: image-1.png
+pageType: blog
 ---
 
 ![My Monkey Type profile](./image-1.png "My Monkey Type profile")

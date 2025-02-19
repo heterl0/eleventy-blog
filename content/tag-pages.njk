@@ -16,6 +16,8 @@ const eleventyComputed = {
 		return `/tags/${this.slugify(data.tag)}/`;
 	}
 };
+
+const postType = "tags";
 ---
 <h1>Tagged “{{ tag }}”</h1>
 

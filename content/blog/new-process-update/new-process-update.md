@@ -5,11 +5,12 @@ date: 2025-01-05
 tags:
   - touch-typing
 og_image: image-1.png
+pageType: blog
 ---
 ## Introduction
 I am practice [Touch Typing](../touch-typing) around **69 Days streaks**.
 ![Streak of typing practice up to 69 Days](./image-1.png "Streak of typing practice up to 69 Days")
-From the last time I have updated Nov 22, my typing speed is increased. I have achieve the goal to get the avg speed around 80 - 90 wpm. I am really happy and ...proud of myself for reaching this milestone! The past few months have been a journey of consistent practice and dedication, and it's amazing to see how much progress I've made.
+From the last time I have updated Nov 22, my typing speed is increased. I have achieve the goal to get the avg speed around 80 - 90 wpm. I am really happy and proud of myself for reaching this milestone! The past few months have been a journey of consistent practice and dedication, and it's amazing to see how much progress I've made.
 
 ![The graph show the mean value and avg speed](./image-2.png "The graph show the mean value and avg speed")
 Look at the graph above, which shows my typing speed over time. As you can see, the typing speed fall into around 80 - 90 is the mod of entire graph.
@@ -25,6 +26,7 @@ Now, let's discuss what I'm struggling with:
 - Maintaining consistency: Although I've seen significant progress, I still experience fluctuations in my typing speed. Some days I'm able to hit 90 wpm easily, while others I struggle to reach 80.
 - Typos and errors: Despite improving my accuracy, I still make mistakes when typing quickly. This can be frustrating and impacts the overall quality of my work.
 - Through out 1 months I just get more than last month from 108 to 109
+
 => I'm excited to share the progress I've made in improving my typing speed and accuracy.
 
 ### Next Goal
