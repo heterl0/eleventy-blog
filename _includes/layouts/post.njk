@@ -1,6 +1,54 @@
 ---
 layout: layouts/base.njk
 ---
+
+{# Add this to your post.njk layout #}
+<div class="progress-container">
+  <div class="progress-bar" id="readingProgress"></div>
+</div>
+
+<style>
+.progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+  z-index: 1000;
+}
+
+.progress-bar {
+  height: 4px;
+  background: #3b82f6; /* Tailwind blue-500, change color as needed */
+  width: 0%;
+  transition: width 0.1s ease;
+}
+</style>
+
+<script>
+  // Add this after your existing content
+  document.addEventListener('DOMContentLoaded', function() {
+    const progressBar = document.getElementById('readingProgress');
+    const content = document.querySelector('main') || document.body;
+
+    function updateProgress() {
+      const scrollPosition = window.scrollY;
+      const scrollHeight = content.scrollHeight - window.innerHeight;
+      const progress = (scrollPosition / scrollHeight) * 100;
+
+      // Ensure progress stays between 0 and 100
+      progressBar.style.width = `${Math.min(100, Math.max(0, progress))}%`;
+    }
+
+    // Update on scroll
+    window.addEventListener('scroll', updateProgress);
+
+    // Initial update
+    updateProgress();
+  });
+</script>
+
 {# Only include the syntax highlighter CSS on blog posts, included with the CSS per-page bundle #}
 {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
 {%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
