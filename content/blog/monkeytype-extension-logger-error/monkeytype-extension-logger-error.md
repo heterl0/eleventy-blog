@@ -30,9 +30,11 @@ og_image: monkeytype-extension.png
 
 ### The Beginning
 
-Around **four months ago**, I started practicing **Monkeytype daily** to improve my **typing speed and coding efficiency**. Initially, I made good progress, but after about **one month**, I got stuck at a speed of **80-90 WPM** and couldn’t improve further.
+Around **four months ago**, I started practicing **Monkeytype daily** to improve my **typing speed and coding efficiency**. Initially, I made good progress, but after about **one month**, I got [stuck at a speed of **80-90 WPM**](../touch-typing-practice-feb-2025) and couldn’t improve further.
 
 To break through this plateau, I decided to **track my typing mistakes** systematically. I began **writing down all the words I mistyped** and used **AI to analyze them**, identifying patterns and areas for improvement. Additionally, I started practicing specific coding-related typing techniques to enhance accuracy.
+
+![MonkeyType Track Error Logger](Note/Blog/monkeytype-extension-logger-error/monkeytype-extension.png)
 
 Check out my extension here! [Monkeytype History Logger - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/monkeytype-history-logger/ophgnpohledibffckhpabdcciniinnjo)
 ## Automating the Error Tracking Process
@@ -101,6 +103,8 @@ I also built a **Next.js web app** (deployed on **Vercel Hobby Tier**) that lets
 - Upload their JSON file.
 - Visualize typing mistakes and progress trends.
 - Gain personalized insights for improvement.
+
+![MonkeyType Analysis](monkeytype-analysis.png)
 
 [🌐 Visit My Analysis Website](https://monkeytype-analysis.heterl0.live/)
 
