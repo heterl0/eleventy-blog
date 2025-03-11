@@ -10,7 +10,9 @@ pageType: blog
 ## **Update Process** 📝
 
 It's been **1.5 months** since my last blog post about my **typing speed update** ([update process](../new-process-update)). My goal was to **increase from 80-90 WPM to 90-100 WPM**, but it's still too hard for me.
+
 ![Touch Typing Practice 02/19/2025](./update-info.png)
+
 Currently, my **average speed is around 87 WPM**, and my accuracy hasn't improved much. I haven’t reached my target yet, which is frustrating. I've been **practicing regularly**, but progress isn’t as **fast** or **consistent** as I hoped.
 
 In **1.5 months**, I practiced for about **12 hours**. It’s **not a lot**, but at least I kept it **consistent**. Some days, I only practiced for **10-15 minutes** or even **less**, and I’m not happy with that. I should focus on **more structured and steady** practice.

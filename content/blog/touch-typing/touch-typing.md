@@ -9,13 +9,17 @@ pageType: blog
 ---
 
 ![My Monkey Type profile](./image-1.png "My Monkey Type profile")
+
 ## About *Touch Typing*
+
 Touch Typing is a technique that allows you to type on a keyboard without looking at it. This technique requires you to develop muscle memory by placing your fingers on the home row keys (the middle row of keys) and then practicing typing exercises to learn the correct finger placement for each key.
 
 ## Benefits of Touch Typing
+
 Touch typing offers several benefits, including increased speed, accuracy, and efficiency when typing. By developing this skill, you can type quickly and accurately without distractions, making it an essential tool for anyone who spends a significant amount of time on computers, smartphones, or other devices.
 
 ## How to Learn Touch Typing
+
 That is how I start:
 *   Start with short exercises, such as typing single keys or simple phrases.
 *   Gradually increase the complexity of your exercises by adding more characters and words.
@@ -23,10 +27,14 @@ That is how I start:
 *   Consider using online resources, tutorials, or software designed specifically for touch typing.
 
 ## Learning Process
+
 ### In The Past
+
 I have start to learn this technique from I am in high school. In the past, I have typing with speed at around **50-60 words per minute (wpm)**, but it's been a while since I've practiced regularly.
 I have practiced everyday to achieve not looking at the keyboard while I was typing.
+
 ### Currently
+
 About 1 months ago, I have started to learn this technique again. I can typing about 60 - 70 ... words per minute (wpm). However, I still need to practiced to achieve the better speed.
 Thought this one months, I spent about 10 to 60 minutes a day practicing touch typing exercises  in [Monkeytype](https://monkeytype.com/)
 
@@ -39,7 +47,4 @@ To achieve this, I'll focus on:
 *   Exploring different typing exercises and games to keep my practice sessions engaging and challenging
 *   Analyzing my mistakes and focusing on correcting them specifically, rather than just practicing randomly
 *   Setting realistic goals for each week/month and tracking my progress to stay motivate
-
-
-
-
+---

@@ -11,8 +11,6 @@ tags:
 pageType: blog
 og_image: monkeytype-extension.png
 ---
-
-
 ## Table of Contents
 1. [My Journey to Faster and More Accurate Typing](#my-journey-to-faster-and-more-accurate-typing)
 2. [Automating the Error Tracking Process](#automating-the-error-tracking-process)
@@ -128,8 +126,8 @@ Remember, **consistent practice is key** to increasing your typing speed and acc
 
 ## **Check Out My Work**
 
-🔗 [My Extension on GitHub](https://github.com/heterl0/monkeytype-logger)
-🔗 [My Extension on Store](https://microsoftedge.microsoft.com/addons/detail/monkeytype-history-logger/ophgnpohledibffckhpabdcciniinnjo)
-🔗 [My Jupyter Notebook Analysis](https://github.com/heterl0/monkeytype-logger/blob/main/monkeytype-analysis/typing-error-analysis-notebook.ipynb)
-🔗 [My Website for Analysis](https://monkeytype-analysis.heterl0.live/)
-🔗 [Follow My Blog Feed](https://heterl0.live/feed/feed.xml)
+- 🔗 [My Extension on GitHub](https://github.com/heterl0/monkeytype-logger)
+- 🔗 [My Extension on Store](https://microsoftedge.microsoft.com/addons/detail/monkeytype-history-logger/ophgnpohledibffckhpabdcciniinnjo)
+- 🔗 [My Jupyter Notebook Analysis](https://github.com/heterl0/monkeytype-logger/blob/main/monkeytype-analysis/typing-error-analysis-notebook.ipynb)
+- 🔗 [My Website for Analysis](https://monkeytype-analysis.heterl0.live/)
+- 🔗 [Follow My Blog Feed](https://heterl0.live/feed/feed.xml)
