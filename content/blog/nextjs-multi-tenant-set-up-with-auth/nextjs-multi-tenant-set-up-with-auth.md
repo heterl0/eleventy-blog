@@ -26,7 +26,7 @@ Key features of multi-tenancy:
 
 Checkout [Demo](https://login.heterl0.live/)
 
-![NextJs Multi Tenant Demo](Note/Public/nextjs-multi-tenant-set-up-with-auth/multi-tenant-demo.png)
+![NextJs Multi Tenant Demo](./multi-tenant-demo.png)
 
 This section outlines how to create a multi-tenant application using Next.js with subdomain-based tenant separation (e.g., `tenant1.yourdomain.com`, `tenant2.yourdomain.com`).
 
