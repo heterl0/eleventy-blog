@@ -1,6 +1,6 @@
 ---
 title: New Process Update
-description: This blog about update my learn typing touch process
+description: This blog about update my learn typing touch process, process updated at 01/05/2025 after 2 months practice continuously.
 date: 2025-01-05
 tags:
   - touch-typing
