@@ -1,0 +1,2 @@
+robocopy "Obsidian Vault\Note" "Project Folder" /MIR
+pause
