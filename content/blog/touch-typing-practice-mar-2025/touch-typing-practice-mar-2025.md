@@ -18,7 +18,7 @@ Today is March 16, 2025—approximately one month since [my last update](../touc
 - **New Personal Best (10-word test):** Reached an impressive **143 WPM** 🎯.
     
 
-![Monkeytype profile of heterl0 | March 2025](new-update-profile-march-2025.png)
+![Monkeytype profile of heterl0 | March 2025](Note/Public/touch-typing-practice-mar-2025/new-update-profile-march-2025.png)
 
 These results are encouraging and validate the effectiveness of increasing my daily practice time.
 ___
@@ -37,7 +37,7 @@ By practicing 25 minutes daily, I accumulate approximately **750 minutes (12.5 h
 
 Because these factors vary daily, it's challenging to pinpoint exactly how much each contributes to my performance. Thus, I've decided to rely on the average WPM as a reliable indicator of improvement.
 
-![Normal distribution of few days](normal-distribution-graph.png)
+![Normal distribution of few days](Note/Public/touch-typing-practice-mar-2025/normal-distribution-graph.png)
 
 I trust in the principle of Normal Distribution 📊—most of my typing tests consistently fall within the **80–90 WPM** range, indicating that my true average is approximately **88 WPM**. This measurement feels accurate and reasonable.
 ___
