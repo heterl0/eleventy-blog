@@ -261,6 +261,25 @@ header {
 	word-spacing: -0.5px;
 }
 
+.postlist-year {
+	font-size: 2rem;
+	/* 11px /16 */
+	color: var(--color-gray-20);
+	display: block;
+	font-weight: 700;
+	line-height: 1.5;
+	font-style: italic;
+}
+
+.postlist-month {
+	font-size: 1.5em;
+	/* 24px /16 */
+	color: var(--color-gray-20);
+	display: block;
+	font-weight: 600;
+	line-height: 1.5;
+}
+
 .postlist-link {
 	font-size: 1.1875em;
 	/* 19px /16 */
