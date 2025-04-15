@@ -36,6 +36,8 @@
 }
 
 
+
+
 /* Global stylesheet */
 * {
 	box-sizing: border-box;
@@ -52,6 +54,16 @@ body {
 	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
+	font-size: 16px;
+}
+
+@media (min-width: 768px) {
+
+	html,
+	body {
+		font-size: 20px;
+		/* Larger font for screens wider than 768px */
+	}
 }
 
 html {
