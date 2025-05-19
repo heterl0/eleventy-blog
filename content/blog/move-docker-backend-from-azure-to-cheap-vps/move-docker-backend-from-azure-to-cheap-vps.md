@@ -100,7 +100,7 @@ So, I decided to **Dockerize my Django backend**. I had some experience using Do
 
 I also learned that some **frontend job interviews** ask about Docker — so it’s a good skill to have.
 
-> I plan to write another blog post specifically on **Dockerizing a Django backend** soon.
+> I plan to write another blog post specifically on **[Dockerizing a Django backend](../dockerizing-a-django-backend-with-multi-container-images)** soon.
 
 ---
 
