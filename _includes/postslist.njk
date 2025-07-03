@@ -6,12 +6,12 @@
 	{%- set currentYear = post.date | readableDate("yyyy") %}
 	{%- set currentMonth = post.date | readableDate("MMMM") %}
 	{%- if currentYear != lastYear %}
-		<h1 class="postlist-year">{{ currentYear }}</h1>
+		<li class="postlist-year"><span>{{ currentYear }}</span></li>
 		{%- set lastYear = currentYear %}
 		{%- set lastMonth = "" %}
 	{%- endif %}
 	{%- if currentMonth != lastMonth %}
-		<h2 class="postlist-month">{{ currentMonth }}</h2>
+		<li class="postlist-month"><span>{{ currentMonth }}</span></li>
 		{%- set lastMonth = currentMonth %}
 	{%- endif %}
 	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
