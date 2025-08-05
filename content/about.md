@@ -9,4 +9,4 @@ const description = "My name is Hieu Le Van, and I am a front-end developer. I h
 
 # About
 
-My name is Hieu Le Van, a frontend developer. I have been working with React and Next.js since February 2023. I graduated from FPT Can Tho University in August 2024. Currently, I am looking for a Frontend Job. I am starting a blog to share my experiences and learn more.
+My name is Hieu Le Van, a frontend developer. I have been working with React and Next.js since February 2023. I graduated from FPT Can Tho University in August 2024. Currently, I am currently work as Frontend Engineer at Moatable. I am starting a blog to share my experiences and learn more.
