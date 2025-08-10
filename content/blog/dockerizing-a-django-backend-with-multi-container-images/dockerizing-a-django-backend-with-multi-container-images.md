@@ -349,8 +349,7 @@ docker compose up -d
 docker compose exec web python manage.py migrate
 ```
 
-### 3. **Open Your App:**
-
+### 3. **Open Your App:**gi
 - Visit `http://localhost` in your browser.
     
 - Static files are served by Nginx.
