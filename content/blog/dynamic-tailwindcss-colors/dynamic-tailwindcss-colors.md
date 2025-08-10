@@ -3,10 +3,10 @@ title: Dynamic TailwindCSS Colors in Next.js for White Label Applications
 description: Learn how to set up dynamic colors in TailwindCSS 4.0 with Next.js, enabling easy white labeling for your application.
 date: 2025-08-10
 tags:
-  - nextjs
-  - tailwindcss
   - white-label
   - theming
+  - NextJs
+  - tailwindcss
 og_image: dynamic-tailwind-nextjs.png
 pageType: blog
 ---
@@ -54,7 +54,7 @@ This example uses five main colors: `primary`, `success`, `info`, `warning`, and
 
   /* info, warning, danger... */
 }
-````
+```
 
 ---
 
