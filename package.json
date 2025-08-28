@@ -39,6 +39,7 @@
 	},
 	"dependencies": {
 		"@zachleat/heading-anchors": "^1.0.1",
-		"dotenv": "^16.4.7"
+		"dotenv": "^16.4.7",
+		"sass": "^1.91.0"
 	}
 }

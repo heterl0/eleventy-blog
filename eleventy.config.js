@@ -9,6 +9,7 @@ import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import path from "path";
 import pluginFilters from "./_config/filters.js";
+import * as sass from "sass"
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -18,6 +19,33 @@ export default async function (eleventyConfig) {
 			return false;
 		}
 	});
+
+	eleventyConfig.addExtension("scss", {
+		outputFileExtension: "css",
+
+		useLayouts: false,
+
+		compile: async function (inputContent, inputPath) {
+			let parsed = path.parse(inputPath);
+
+			if (parsed.name.startsWith("_")) {
+				return;
+			}
+
+			let result = sass.compileString(inputContent, {
+				loadPaths: [
+					parsed.dir || ".",
+					this.config.dir.includes,
+				]
+			});
+
+			this.addDependencies(inputPath, result.loadedUrls);
+
+			return async (data) => {
+				return result.css;
+			}
+		}
+	})
 
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
@@ -128,7 +156,7 @@ export default async function (eleventyConfig) {
 export const config = {
 	// Control which files Eleventy will process
 	// e.g.: *.md, *.njk, *.html, *.liquid
-	templateFormats: ["md", "njk", "html", "liquid", "11ty.js"],
+	templateFormats: ["md", "njk", "html", "liquid", "11ty.js", "scss"],
 
 	// Pre-process *.md files with: (default: `liquid`)
 	markdownTemplateEngine: "njk",
