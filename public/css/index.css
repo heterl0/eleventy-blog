@@ -1,13 +1,16 @@
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--font-family-monospace:
+		Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console,
+		Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
 :root {
 	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
+	--color-gray-50: #c0c0c0;
 	--color-gray-90: #333;
 
 	--background-color: #fff;
@@ -15,7 +18,18 @@
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
 	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color-link-visited: #17050f;
+
+	/* Primary */
+	--primary-100: hsl(206deg 100% 92%);
+	--primary-200: hsl(205deg 100% 79%);
+	--primary-300: hsl(206deg 96% 62%);
+	--primary-400: hsl(206deg 82% 36%);
+	--primary-500: hsl(206deg 78% 14%);
+	--primary-600: hsl(205deg 83% 12%);
+	--primary-700: hsl(206deg 96% 10%);
+	--primary-800: hsl(205deg 100% 8%);
+	--primary-900: hsl(204deg 100% 6%);
 
 	--syntax-tab-size: 2;
 }
@@ -23,7 +37,7 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
+		--color-gray-50: #c0c0c0;
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
@@ -32,11 +46,22 @@
 		--text-color-link-visited: #a6a6f8;
 
 		--background-color: #15202b;
+
+		/*
+			Primary color from https://dynamic-color-generate.heterl0.com/
+			Get follow the --text-color-link
+		*/
+		--primary-100: hsl(208deg 100% 96%);
+		--primary-200: hsl(207deg 100% 89%);
+		--primary-300: hsl(207deg 100% 79%);
+		--primary-400: hsl(207deg 100% 65%);
+		--primary-500: hsl(207deg 97% 53%);
+		--primary-600: hsl(207deg 100% 41%);
+		--primary-700: hsl(207deg 100% 29%);
+		--primary-800: hsl(207deg 100% 19%);
+		--primary-900: hsl(207deg 100% 12%);
 	}
 }
-
-
-
 
 /* Global stylesheet */
 * {
@@ -58,7 +83,6 @@ body {
 }
 
 @media (min-width: 768px) {
-
 	html,
 	body {
 		font-size: 20px;
@@ -147,13 +171,13 @@ header:after {
 .links-nextprev {
 	display: flex;
 	justify-content: space-between;
-	gap: .5em 1em;
+	gap: 0.5em 1em;
 	list-style: "";
 	border-top: 1px dashed var(--color-gray-20);
 	padding: 1em 0;
 }
 
-.links-nextprev>* {
+.links-nextprev > * {
 	flex-grow: 1;
 }
 
@@ -176,7 +200,7 @@ code {
 }
 
 pre:not([class*="language-"]) {
-	margin: .5em 0;
+	margin: 0.5em 0;
 	line-height: 1.375;
 	/* 22px /16 */
 	-moz-tab-size: var(--syntax-tab-size);
@@ -200,7 +224,7 @@ code {
 /* Header */
 header {
 	display: flex;
-	gap: 1em .5em;
+	gap: 1em 0.5em;
 	flex-wrap: wrap;
 	align-items: center;
 	padding: 1em;
@@ -297,8 +321,8 @@ header {
 	/* 19px /16 */
 	font-weight: 700;
 	flex-basis: calc(100% - 1.5rem);
-	padding-left: .25em;
-	padding-right: .5em;
+	padding-left: 0.25em;
+	padding-right: 0.5em;
 	text-underline-position: from-font;
 	text-underline-offset: 0;
 	text-decoration-thickness: 1px;
@@ -317,7 +341,7 @@ header {
 	font-style: italic;
 }
 
-.postlist-item>.post-tag {
+.postlist-item > .post-tag {
 	align-self: center;
 }
 
@@ -325,7 +349,7 @@ header {
 .post-metadata {
 	display: inline-flex;
 	flex-wrap: wrap;
-	gap: .5em;
+	gap: 0.5em;
 	list-style: none;
 	padding: 0;
 	margin: 0;

@@ -20,7 +20,7 @@
 	"author": {
 		"name": "Hieu Le Van",
 		"email": "lehieu99666@gmail.com",
-		"url": "https://heterl0.live/"
+		"url": "https://heterl0.com/"
 	},
 	"license": "ISC",
 	"engines": {
@@ -39,6 +39,7 @@
 	},
 	"dependencies": {
 		"@zachleat/heading-anchors": "^1.0.1",
-		"dotenv": "^16.4.7"
+		"dotenv": "^16.4.7",
+		"sass": "^1.91.0"
 	}
 }

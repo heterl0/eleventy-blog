@@ -11,7 +11,9 @@ tags:
 pageType: blog
 og_image: monkeytype-extension.png
 ---
+
 ## Table of Contents
+
 1. [My Journey to Faster and More Accurate Typing](#my-journey-to-faster-and-more-accurate-typing)
 2. [Automating the Error Tracking Process](#automating-the-error-tracking-process)
 3. [Extension for Tracking Typing Errors](#extension-for-tracking-typing-errors)
@@ -35,9 +37,10 @@ To break through this plateau, I decided to **track my typing mistakes** systema
 ![MonkeyType Track Error Logger](./monkeytype-extension.png)
 
 Check out my extension here! [Monkeytype History Logger - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/monkeytype-history-logger/ophgnpohledibffckhpabdcciniinnjo)
+
 ## Automating the Error Tracking Process
 
-I then thought: *Why not automate this tracking process?* This led me to develop a **browser extension** that **automatically records error words** from my typing history.
+I then thought: _Why not automate this tracking process?_ This led me to develop a **browser extension** that **automatically records error words** from my typing history.
 
 ## **Extension for Tracking Typing Errors**
 
@@ -47,19 +50,20 @@ This file detects the **appearance of result history elements** on the screen an
 
 ```json
 {
-    "id": 1740714390907,
-    "time": "2025-02-28T03:46:30.907Z",
-    "words": [
-      { "reason": "corrected", "word": "be" },
-      { "reason": "corrected", "word": "part" },
-      { "reason": "corrected", "word": "not" },
-      { "reason": "error", "word": "then" },
-      { "reason": "error", "word": "some" }
-    ]
+	"id": 1740714390907,
+	"time": "2025-02-28T03:46:30.907Z",
+	"words": [
+		{ "reason": "corrected", "word": "be" },
+		{ "reason": "corrected", "word": "part" },
+		{ "reason": "corrected", "word": "not" },
+		{ "reason": "error", "word": "then" },
+		{ "reason": "error", "word": "some" }
+	]
 }
 ```
 
 Each record consists of:
+
 - **id**: A unique identifier for the session.
 - **time**: The timestamp of the recorded session.
 - **words**: A list of words where mistakes occurred.
@@ -71,6 +75,7 @@ Each record consists of:
 ### **background.js** (Handling Events)
 
 This script listens for events and processes them. It currently supports three key actions:
+
 - **Saving Records**: The `SaveRecords` event stores error logs in `chrome.storage.local`. With the `unlimitedStorage` permission, we can store up to **10,000 records** (each 100 records take about **50KB**).
 - **Deleting Last Record**: The `DeleteLastRecords` event removes the most recent entry for data management.
 - **Downloading Records**: This event enables users to **download their records as a JSON file** for offline analysis.
@@ -78,6 +83,7 @@ This script listens for events and processes them. It currently supports three k
 ### **popup.html & popup.js** (User Interface)
 
 The extension’s popup displays:
+
 - Extension name
 - Last recorded session
 - Total stored records
@@ -90,6 +96,7 @@ The extension’s popup displays:
 ### **Jupyter Notebook (AI-Based Analysis)**
 
 If you're familiar with **Python** and **Jupyter Notebook**, you can analyze your typing data using AI techniques. Simply:
+
 1. Place `monkeytype_data.json` in the same directory as your Jupyter Notebook file.
 2. Run the notebook to see **detailed insights** into your typing mistakes and improvements.
 
@@ -98,13 +105,14 @@ If you're familiar with **Python** and **Jupyter Notebook**, you can analyze you
 ### **Website for Data Visualization**
 
 I also built a **Next.js web app** (deployed on **Vercel Hobby Tier**) that lets users:
+
 - Upload their JSON file.
 - Visualize typing mistakes and progress trends.
 - Gain personalized insights for improvement.
 
 ![MonkeyType Analysis](./monkeytype-analysis.png)
 
-[🌐 Visit My Analysis Website](https://monkeytype-analysis.heterl0.live/)
+[🌐 Visit My Analysis Website](https://monkeytype-analysis.heterl0.com/)
 
 This analysis helps me **refine my typing habits** and develop an **AI-based assistant** for further improvements.
 
@@ -113,11 +121,13 @@ This analysis helps me **refine my typing habits** and develop an **AI-based ass
 If you want to improve your typing skills like I did, try this **free and open-source extension**. Follow the instructions and start tracking your mistakes.
 
 💡 **Benefits:**
+
 - Real-time tracking of errors and corrections
 - AI-powered analysis for targeted improvements
 - Web-based visualization of your progress
 
 🚀 **How to Get Started:**
+
 1. Install the extension on your preferred browser.
 2. Practice typing and let the extension track mistakes automatically.
 3. Regularly review your errors and adjust your practice accordingly.
@@ -129,5 +139,5 @@ Remember, **consistent practice is key** to increasing your typing speed and acc
 - 🔗 [My Extension on GitHub](https://github.com/heterl0/monkeytype-logger)
 - 🔗 [My Extension on Store](https://microsoftedge.microsoft.com/addons/detail/monkeytype-history-logger/ophgnpohledibffckhpabdcciniinnjo)
 - 🔗 [My Jupyter Notebook Analysis](https://github.com/heterl0/monkeytype-logger/blob/main/monkeytype-analysis/typing-error-analysis-notebook.ipynb)
-- 🔗 [My Website for Analysis](https://monkeytype-analysis.heterl0.live/)
-- 🔗 [Follow My Blog Feed](https://heterl0.live/feed/feed.xml)
+- 🔗 [My Website for Analysis](https://monkeytype-analysis.heterl0.com/)
+- 🔗 [Follow My Blog Feed](https://heterl0.com/feed/feed.xml)

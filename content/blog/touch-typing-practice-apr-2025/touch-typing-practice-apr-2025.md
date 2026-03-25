@@ -7,6 +7,7 @@ tags:
 og_image: 119_15s_09042025.png
 pageType: blog
 ---
+
 ## 🚀 Update Process
 
 Today is April 13th, 2025. I’m writing this blog to update my touch typing practice journey for this month. As of today, I’ve maintained a **168-day streak** on MonkeyType. It’s been a long road, and I’m genuinely proud of myself for staying consistent and tracking every step of the way.
@@ -39,6 +40,6 @@ During typing sessions, I’ll **prioritize accuracy over speed**. In fact, both
 
 Thank you for reading my blog.
 
-Feel free to check out more posts at [heterl0.live](https://heterl0.live/), follow my projects on [GitHub](https://github.com/heterl0), or subscribe to updates via [RSS Feed](https://heterl0.live/feed/feed.xml).
+Feel free to check out more posts at [heterl0.com](https://heterl0.com/), follow my projects on [GitHub](https://github.com/heterl0), or subscribe to updates via [RSS Feed](https://heterl0.com/feed/feed.xml).
 
 **Happy typing! 🌟**
